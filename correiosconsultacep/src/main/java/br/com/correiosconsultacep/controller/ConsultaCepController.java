@@ -1,6 +1,7 @@
 package br.com.correiosconsultacep.controller;
 
 import br.com.correiosconsultacep.model.dtos.Request;
+import br.com.correiosconsultacep.service.interfaceservice.ServicoCalculoFrete;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
